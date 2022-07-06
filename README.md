@@ -135,29 +135,29 @@ FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 �
     
 * 텍스트, 음성 가이드에 따라 실험을 진행 <br/>
 1. Scene0 <br/>
-    <img src="" width="600" height="300"/><br/>
-    <img src="" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177491524-2facf091-b324-40ad-9eae-ab5e6528d8c2.PNG" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177491531-51cf512d-099d-408a-94ac-3a101720c303.PNG" width="600" height="300"/><br/>
 핀셋을 드래그하여 비커 위로 옮기면 멸치가 비커 속으로 들어간다
 불리는 게이지가 다 차면 핀셋을 터치하여 멸치를 건져올린다(게이지가 차기 전엔 핀셋의 Lean 컴포넌트를 꺼놓아 움직이지 못 하게 함)
 테이블 위의 슬라이드 글라스에 불린 멸치를 옮겨놓는다
 2. Scene1 <br/>
-    <img src="" width="600" height="300"/><br/>
-    <img src="" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177491546-814d05c1-a6a3-4a02-a15c-868a5a9adb42.PNG" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177491558-e6766df0-c6c4-4e5f-9b6d-1ae8df91431c.PNG" width="600" height="300"/><br/>
 핀셋을 드래그하여 멸치의 겉부분을 걷어낸다
 드러난 멸치의 장기와 유문수를 각각 드래그하여 떼어낸다
 위를 터치하여 패트리 접시에 옮겨 담는다
 멸치의 위가 너무 작기 때문에 편의를 위해 패트리 접시를 터치하여 확대되도록 했다
 3. Scene2 <br/>
-    <img src="" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177491584-4da52ec9-9364-4f84-b09e-4139c84bdd6b.PNG" width="600" height="300"/><br/>
 메스를 드래그하여 위를 가른다 <br/>
 4. Scene3 <br/>
-    <img src="" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177491611-5c8b769e-3c7c-4666-9877-d020ef3c94d3.PNG" width="600" height="300"/><br/>
 가른 위를 터치하여 스포이트가 생기면 손잡이 부분을 터치해 물을 떨어트린다 <br/>
 5. Scene4 <br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177491622-0c173edb-b365-4fe8-94a4-ebd8e7c7bcf5.PNG" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177491645-c58da11a-b317-43cc-96d3-760d69201d5c.PNG" width="600" height="300"/><br/>
     <img src="" width="600" height="300"/><br/>
-    <img src="" width="600" height="300"/><br/>
-    <img src="" width="600" height="300"/><br/>
-    <img src="" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177491698-663f269e-1032-45cc-a458-cf9f5b2b1770.PNG" width="600" height="300"/><br/>
 스포이트를 드래그하여 위 내부의 내용물에 닿게 한 후 손잡이 부분을 터치해 빨아들인다 <br/>
 스포이트를 드래그하여 슬라이드 글라스 위에 놓인 후 손잡이 부분을 터치해 몇 방울 떨어트린다 <br/>
 슬라이드 글라스를 터치하여 커버 글라스를 씌운 후 또 한 번 터치해 현미경에 넣는다 <br/>
