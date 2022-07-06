@@ -6,6 +6,8 @@
 - 멸치 해부 실험 <br/>
 - 추후 추가 실험 개발 예정 <br/>
 
+7월 말~8월 초 aos, ios 출시 에정
+
 - 각 Scene 설명 <br/>
 - MainScene <br/>
 각 실험 버튼을 Scroll Rect를 활용해 구성 <br/>
