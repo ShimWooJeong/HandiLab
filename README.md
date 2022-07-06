@@ -96,7 +96,7 @@ Update에서 해당 오브젝트의 위치를 계속 받아와서 temp에 저장
     
 * 각 실험 버튼을 Scroll Rect를 활용해 구성 <br/>
 * 원하는 실험의 버튼을 클릭 <br/>
-<img src="https://user-images.githubusercontent.com/70475213/177487935-aa299f5d-cadc-4917-b418-8b37c4bdf86c.PNG" width="600" height="300"/><br/>
+<img src="" width="600" height="300"/><br/>
 > 각 실험의 공통된 작업 <br/>
 >> <img src="https://user-images.githubusercontent.com/70475213/177488056-3bde6d65-b4ac-4d84-8977-1dcae0ce1c68.PNG" width="600" height="300"/><br/>
 >> 스마트폰 카메라를 통해 평면을 인식하면 실험 테이블이 놓일 위치를 미리 보여줌 <br/>
@@ -117,12 +117,14 @@ Update에서 해당 오브젝트의 위치를 계속 받아와서 temp에 저장
 여기서 일반배지가 아닌 항생제 배지를 먼저 도말하려고 할 경우 일반배지가 깜빡이는 효과를 넣었다 <br/>
 3. Scene3 <br/>
     <img src="https://user-images.githubusercontent.com/70475213/177488302-4fbd6eab-0644-453a-a9f2-c1de3f00a89d.PNG" width="600" height="300"/><br/>
-    <img src="" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177489827-b4359d81-1382-45e1-bd31-897c36fc2931.PNG" width="600" height="300"/><br/>
 각 배지를 터치해 뚜껑을 덮은 후 터치를 통해 각 배지를 배양기에 옮겨넣는다 <br/>
 이 Scene은 모든 상호작용을 터치+애니메이션으로 제작했다 <br/>
 배양기 문이 열려있지 않은 상태에서 배지를 옮기려고 할 경우 배양기가 깜박이는 효과를 넣었다 <br/>
 4. Scene4 <br/>
-    <img src="" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177489838-abe5fc4a-5715-47d4-a879-048c17d1cf50.PNG" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177490280-26c158c4-271e-4b88-8ff9-0c04afeaa1ee.PNG" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177489879-86d9c43a-3671-4c23-a1f7-7b180a2214c0.PNG" width="600" height="300"/><br/>
 FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 후를 표현 <br/>
 배양기를 터치하여 배양기 문을 열고 배지를 가져온다 <br/>
 테이블에 놓고 관찰할 수 있고, 화면을 터치하면 실제 결과 사진을 보여준다 <br/>
@@ -133,19 +135,29 @@ FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 �
     
 * 텍스트, 음성 가이드에 따라 실험을 진행 <br/>
 1. Scene0 <br/>
+    <img src="" width="600" height="300"/><br/>
+    <img src="" width="600" height="300"/><br/>
 핀셋을 드래그하여 비커 위로 옮기면 멸치가 비커 속으로 들어간다
 불리는 게이지가 다 차면 핀셋을 터치하여 멸치를 건져올린다(게이지가 차기 전엔 핀셋의 Lean 컴포넌트를 꺼놓아 움직이지 못 하게 함)
 테이블 위의 슬라이드 글라스에 불린 멸치를 옮겨놓는다
 2. Scene1 <br/>
+    <img src="" width="600" height="300"/><br/>
+    <img src="" width="600" height="300"/><br/>
 핀셋을 드래그하여 멸치의 겉부분을 걷어낸다
 드러난 멸치의 장기와 유문수를 각각 드래그하여 떼어낸다
 위를 터치하여 패트리 접시에 옮겨 담는다
 멸치의 위가 너무 작기 때문에 편의를 위해 패트리 접시를 터치하여 확대되도록 했다
 3. Scene2 <br/>
+    <img src="" width="600" height="300"/><br/>
 메스를 드래그하여 위를 가른다 <br/>
 4. Scene3 <br/>
+    <img src="" width="600" height="300"/><br/>
 가른 위를 터치하여 스포이트가 생기면 손잡이 부분을 터치해 물을 떨어트린다 <br/>
 5. Scene4 <br/>
+    <img src="" width="600" height="300"/><br/>
+    <img src="" width="600" height="300"/><br/>
+    <img src="" width="600" height="300"/><br/>
+    <img src="" width="600" height="300"/><br/>
 스포이트를 드래그하여 위 내부의 내용물에 닿게 한 후 손잡이 부분을 터치해 빨아들인다 <br/>
 스포이트를 드래그하여 슬라이드 글라스 위에 놓인 후 손잡이 부분을 터치해 몇 방울 떨어트린다 <br/>
 슬라이드 글라스를 터치하여 커버 글라스를 씌운 후 또 한 번 터치해 현미경에 넣는다 <br/>
