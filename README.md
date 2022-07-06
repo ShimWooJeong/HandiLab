@@ -116,6 +116,10 @@ public Vector3 startVec;
 
     }
 ```
+z축을 고정하기 위한 오브젝트에 붙이는 스크립트로 <br/>
+해당 오브젝트의 시작 localposition을 startVec에 담은 후 <br/>
+Update에서 해당 오브젝트의 위치를 계속 받아와서 temp에 저장, temp의 z축 position을 startVec의 z축으로 설정 <br/>
+그렇다면 x축, y축은 계속해서 해당 오브젝트의 위치를 따라가지만 z축만 처음 시작한 z축 위치를 유지할 수 있음 <br/>
 
 사용목적 <br/>
 
