@@ -86,19 +86,19 @@ private void PlaneIndication()
     }
 ```
 ARCam(스마트폰 카메라)의 정면 방향을 받아와서 x축과 z축을 cameraBearing에 저장
-```
+```c++
 var cameraForward = ARCam.transform.forward;
             var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
 ```
 그 후 hitPose의 rotation을 ARCam이 보는 방향을 보도록 설정한다
-```
+```c++
 hitPos.rotation = Quaternion.LookRotation(cameraBearing);
 ```
 - 멸치 해부 실험에서 핀셋을 드래그하여 비커 위로 옮길 때 3개의 축이 모두 움직여지기 때문에 z축으로 인해 핀셋이 비커 뒤로 가게 되는 문제 <br/>
 z축이 움직여질 필요는 없기 때문에 z축을 고정해주면 해결할 수 있을 것이라 생각 <br/>
 //실제 해결 방안 작성// <br/>
 Z_Control.cs <br/>
-```
+```c++
 public Vector3 startVec;
 
     // Start is called before the first frame update
