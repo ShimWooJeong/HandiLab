@@ -54,7 +54,45 @@ FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 �
 - 실험 테이블을 놓을 때 처음 앱을 시작할 때의 방향으로만 놓여지는 문제 <br/>
 스마트폰 카메라의 방향을 실시간으로 받아와서 그 방향을 Spawn object에 반영해주면 해결할 수 있을 것이라 생각 <br/>
 //실제 해결 방안 작성// <br/>
+```c++
+private void PlaneIndication()
+    {
+        var screenCenter = ARCam.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
 
+        if (arRaycastManager.Raycast(screenCenter, hits, TrackableType.All) && spawnedObject == null)
+        {
+            Pose hitPos = hits[0].pose;
+
+            var cameraForward = ARCam.transform.forward;
+            var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
+
+            hitPos.rotation = Quaternion.LookRotation(cameraBearing);
+            ARIndicator.SetActive(true);
+            ARIndicator.transform.SetPositionAndRotation(hitPos.position, hitPos.rotation);
+            placementPoseIsValid = hits.Count > 0;
+
+            if (spawnedObject == null && placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+            {
+                spawnedObject = Instantiate(arObjectToSpawn, ARIndicator.transform.position, Quaternion.LookRotation(cameraBearing));
+                guideCanvas.SetActive(false);
+            }
+
+        }
+        else
+        {
+            ARIndicator.SetActive(false);
+        }
+    }
+```
+ARCam(스마트폰 카메라)의 정면 방향을 받아와서 x축과 z축을 cameraBearing에 저장
+```
+var cameraForward = ARCam.transform.forward;
+            var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
+```
+그 후 hitPose의 rotation을 ARCam이 보는 방향을 보도록 설정한다
+```
+hitPos.rotation = Quaternion.LookRotation(cameraBearing);
+```
 - 멸치 해부 실험에서 핀셋을 드래그하여 비커 위로 옮길 때 3개의 축이 모두 움직여지기 때문에 z축으로 인해 핀셋이 비커 뒤로 가게 되는 문제 <br/>
 z축이 움직여질 필요는 없기 때문에 z축을 고정해주면 해결할 수 있을 것이라 생각 <br/>
 //실제 해결 방안 작성// <br/>
