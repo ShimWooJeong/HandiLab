@@ -1,5 +1,6 @@
 # HandiLab Project
-> 기간: 2022.05~2022.07
+> 기간: 2022.05~2022.07 <br/>
+> Unity(2020.3.7f1), Blender 프로그램 사용
 
 ### - AR을 활용한 과학실험 앱(고등 교육과정 반영)
     - 항생제 내성균 실험
@@ -17,8 +18,8 @@
 <details>
     <summary>실험 테이블을 놓을 때 처음 앱을 시작할 때의 방향으로만 놓여지는 문제</summary>
     
-* 스마트폰 카메라의 방향을 실시간으로 받아와서 그 방향을 Spawn object에 반영해주면 해결할 수 있을 것이라 생각 <br/>
-PlacementIndicator.cs
+ 스마트폰 카메라의 방향을 실시간으로 받아와서 그 방향을 Spawn object에 반영해주면 해결할 수 있을 것이라 생각 <br/>
+> PlacementIndicator.cs
 ```c++
 private void PlaneIndication()
     {
@@ -63,8 +64,8 @@ hitPos.rotation = Quaternion.LookRotation(cameraBearing);
 <details>
     <summary>멸치 해부 실험에서 핀셋을 드래그하여 비커 위로 옮길 때 3개의 축이 모두 움직여지기 때문에 z축으로 인해 핀셋이 비커 뒤로 가게 되는 문제</summary>
 
-* z축이 움직여질 필요는 없기 때문에 z축을 고정해주면 해결할 수 있을 것이라 생각 <br/>
-Z_Control.cs <br/>
+ z축이 움직여질 필요는 없기 때문에 z축을 고정해주면 해결할 수 있을 것이라 생각 <br/>
+> Z_Control.cs <br/>
 ```c++
 public Vector3 startVec;
 
