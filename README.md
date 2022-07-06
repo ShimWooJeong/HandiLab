@@ -54,6 +54,7 @@ FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 �
 - 실험 테이블을 놓을 때 처음 앱을 시작할 때의 방향으로만 놓여지는 문제 <br/>
 스마트폰 카메라의 방향을 실시간으로 받아와서 그 방향을 Spawn object에 반영해주면 해결할 수 있을 것이라 생각 <br/>
 //실제 해결 방안 작성// <br/>
+PlacementIndicator.cs
 ```c++
 private void PlaneIndication()
     {
@@ -97,7 +98,24 @@ hitPos.rotation = Quaternion.LookRotation(cameraBearing);
 z축이 움직여질 필요는 없기 때문에 z축을 고정해주면 해결할 수 있을 것이라 생각 <br/>
 //실제 해결 방안 작성// <br/>
 Z_Control.cs <br/>
+```
+public Vector3 startVec;
 
+    // Start is called before the first frame update
+    void Start()
+    {
+        startVec = gameObject.transform.localPosition; // 처음 z값
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Vector3 temp = gameObject.transform.localPosition;
+        temp.z = startVec.z;         // temp를 계속 현재 gameObject의 위치로 바꿔주되, z는 startvec으로 설정 -> 이 녀석을 게임오브젝트의 위치로 설정
+        gameObject.transform.localPosition = temp;
+
+    }
+```
 
 사용목적 <br/>
 
