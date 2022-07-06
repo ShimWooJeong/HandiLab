@@ -141,7 +141,7 @@ FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 �
 불리는 게이지가 다 차면 핀셋을 터치하여 멸치를 건져올린다(게이지가 차기 전엔 핀셋의 Lean 컴포넌트를 꺼놓아 움직이지 못 하게 함)
 테이블 위의 슬라이드 글라스에 불린 멸치를 옮겨놓는다
 2. Scene1 <br/>
-    <img src="" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177492501-44a6d712-1e7f-4d02-b16c-88f0e206a8d9.PNG" width="600" height="300"/><br/>
     <img src="https://user-images.githubusercontent.com/70475213/177491546-814d05c1-a6a3-4a02-a15c-868a5a9adb42.PNG" width="600" height="300"/><br/>
     <img src="https://user-images.githubusercontent.com/70475213/177491558-e6766df0-c6c4-4e5f-9b6d-1ae8df91431c.PNG" width="600" height="300"/><br/>
 핀셋을 드래그하여 멸치의 겉부분을 걷어낸다
