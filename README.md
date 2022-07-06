@@ -20,7 +20,7 @@
     
  스마트폰 카메라의 방향을 실시간으로 받아와서 그 방향을 Spawn object에 반영해주면 해결할 수 있을 것이라 생각 <br/>
 > PlacementIndicator.cs
-```c++
+```c#
 private void PlaneIndication()
     {
         var screenCenter = ARCam.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
@@ -51,12 +51,12 @@ private void PlaneIndication()
     }
 ```
 * ARCam(스마트폰 카메라)의 정면 방향을 받아와서 x축과 z축을 cameraBearing에 저장
-```c++
+```c#
 var cameraForward = ARCam.transform.forward;
             var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
 ```
 * 그 후 hitPose의 rotation을 ARCam이 보는 방향을 보도록 설정한다
-```c++
+```c#
 hitPos.rotation = Quaternion.LookRotation(cameraBearing);
 ```
 </details>
@@ -66,7 +66,7 @@ hitPos.rotation = Quaternion.LookRotation(cameraBearing);
 
  z축이 움직여질 필요는 없기 때문에 z축을 고정해주면 해결할 수 있을 것이라 생각 <br/>
 > Z_Control.cs <br/>
-```c++
+```c#
 public Vector3 startVec;
 
     // Start is called before the first frame update
