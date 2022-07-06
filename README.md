@@ -96,7 +96,9 @@ Update에서 해당 오브젝트의 위치를 계속 받아와서 temp에 저장
     
 * 각 실험 버튼을 Scroll Rect를 활용해 구성 <br/>
 * 원하는 실험의 버튼을 클릭 <br/>
+<img src="https://user-images.githubusercontent.com/70475213/177487935-aa299f5d-cadc-4917-b418-8b37c4bdf86c.PNG" width="600" height="300"/><br/>
 > 각 실험의 공통된 작업 <br/>
+>> <img src="https://user-images.githubusercontent.com/70475213/177488056-3bde6d65-b4ac-4d84-8977-1dcae0ce1c68.PNG" width="600" height="300"/><br/>
 >> 스마트폰 카메라를 통해 평면을 인식하면 실험 테이블이 놓일 위치를 미리 보여줌 <br/>
 >> 원하는 곳에 위치시킨 후 터치하면 테이블이 고정되어 위치함 <br/>
 >> 테이블이 놓인 후 실험 시작 <br/>
@@ -107,15 +109,20 @@ Update에서 해당 오브젝트의 위치를 계속 받아와서 temp에 저장
     
 * 텍스트, 음성 가이드에 따라 실험을 진행 <br/>
 1. Scene1 <br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177488136-835238e8-b082-4ba9-8995-5649cb6b4f14.PNG" width="600" height="300"/><br/>
 스포이트를 드래그하여 배지 위에 옮겨놓은 후 손잡이 부분을 터치해 각 배지에 배양액을 떨어트린다 <br/>
 2. Scene2 <br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177488266-a0355f2b-5a85-4c62-b9ba-39e120af2f10.PNG" width="600" height="300"/><br/>
 유리봉을 드래그하여 일반배지부터 각 배지를 도말한다 <br/>
 여기서 일반배지가 아닌 항생제 배지를 먼저 도말하려고 할 경우 일반배지가 깜빡이는 효과를 넣었다 <br/>
 3. Scene3 <br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177488302-4fbd6eab-0644-453a-a9f2-c1de3f00a89d.PNG" width="600" height="300"/><br/>
+    <img src="" width="600" height="300"/><br/>
 각 배지를 터치해 뚜껑을 덮은 후 터치를 통해 각 배지를 배양기에 옮겨넣는다 <br/>
 이 Scene은 모든 상호작용을 터치+애니메이션으로 제작했다 <br/>
 배양기 문이 열려있지 않은 상태에서 배지를 옮기려고 할 경우 배양기가 깜박이는 효과를 넣었다 <br/>
 4. Scene4 <br/>
+    <img src="" width="600" height="300"/><br/>
 FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 후를 표현 <br/>
 배양기를 터치하여 배양기 문을 열고 배지를 가져온다 <br/>
 테이블에 놓고 관찰할 수 있고, 화면을 터치하면 실제 결과 사진을 보여준다 <br/>
