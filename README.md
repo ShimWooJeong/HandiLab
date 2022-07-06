@@ -96,7 +96,7 @@ Update에서 해당 오브젝트의 위치를 계속 받아와서 temp에 저장
     
 * 각 실험 버튼을 Scroll Rect를 활용해 구성 <br/>
 * 원하는 실험의 버튼을 클릭 <br/>
-<img src="" width="600" height="300"/><br/>
+<img src="https://user-images.githubusercontent.com/70475213/177492118-ccc1e15d-8a13-4e4f-a79e-41262c71f25b.PNG" width="600" height="300"/><br/>
 > 각 실험의 공통된 작업 <br/>
 >> <img src="https://user-images.githubusercontent.com/70475213/177488056-3bde6d65-b4ac-4d84-8977-1dcae0ce1c68.PNG" width="600" height="300"/><br/>
 >> 스마트폰 카메라를 통해 평면을 인식하면 실험 테이블이 놓일 위치를 미리 보여줌 <br/>
@@ -141,6 +141,7 @@ FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 �
 불리는 게이지가 다 차면 핀셋을 터치하여 멸치를 건져올린다(게이지가 차기 전엔 핀셋의 Lean 컴포넌트를 꺼놓아 움직이지 못 하게 함)
 테이블 위의 슬라이드 글라스에 불린 멸치를 옮겨놓는다
 2. Scene1 <br/>
+    <img src="" width="600" height="300"/><br/>
     <img src="https://user-images.githubusercontent.com/70475213/177491546-814d05c1-a6a3-4a02-a15c-868a5a9adb42.PNG" width="600" height="300"/><br/>
     <img src="https://user-images.githubusercontent.com/70475213/177491558-e6766df0-c6c4-4e5f-9b6d-1ae8df91431c.PNG" width="600" height="300"/><br/>
 핀셋을 드래그하여 멸치의 겉부분을 걷어낸다
@@ -156,7 +157,7 @@ FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 �
 5. Scene4 <br/>
     <img src="https://user-images.githubusercontent.com/70475213/177491622-0c173edb-b365-4fe8-94a4-ebd8e7c7bcf5.PNG" width="600" height="300"/><br/>
     <img src="https://user-images.githubusercontent.com/70475213/177491645-c58da11a-b317-43cc-96d3-760d69201d5c.PNG" width="600" height="300"/><br/>
-    <img src="" width="600" height="300"/><br/>
+    <img src="https://user-images.githubusercontent.com/70475213/177492069-f4d24126-55f0-4203-998f-20b10fce9750.PNG" width="600" height="300"/><br/>
     <img src="https://user-images.githubusercontent.com/70475213/177491698-663f269e-1032-45cc-a458-cf9f5b2b1770.PNG" width="600" height="300"/><br/>
 스포이트를 드래그하여 위 내부의 내용물에 닿게 한 후 손잡이 부분을 터치해 빨아들인다 <br/>
 스포이트를 드래그하여 슬라이드 글라스 위에 놓인 후 손잡이 부분을 터치해 몇 방울 떨어트린다 <br/>
