@@ -165,3 +165,15 @@ FadeIn, FadeOut 활용, 시계가 돌아가는 애니메이션을 통해 1일 �
 현미경을 터치해 실제 결과 화면을 볼 수 있다 <br/>
     
 </details>
+
+### - 결과물 등록 <br/>
+#### Playstore 및 AppStore 등록 완료 <br/>
+<details>
+    <summary>PlayStore</summary>
+    https://play.google.com/store/apps/details?id=com.DefaultCompany.UI_Test&hl=ko-KR
+</details>
+<details>
+    <summary>AppStore - 2023년 7월 이후 Apple Developer 계정 1년 만료 후 내려감</summary>
+
+<img src="https://github.com/ShimWooJeong/AR_experiment/assets/70475213/31b0fd9f-eb90-455b-ab72-edd12abb0d5e" width="300" height="650"/><br/>
+</details>
